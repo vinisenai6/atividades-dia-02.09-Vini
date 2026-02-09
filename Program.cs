@@ -176,37 +176,24 @@
 
 ///////////////////////////////////////////////
 
-Console.WriteLine("Coloque 5 valores");
 
+// Console.WriteLine("Insira 5 valores:");
+// Console.WriteLine("valor um:");
+// int v1 = int.Parse(Console.ReadLine());
+// Console.WriteLine("valor dois: ");
+// int v2 = int.Parse(Console.ReadLine());
+// Console.WriteLine("valor tres: ");
+// int v3 = int.Parse(Console.ReadLine());
+// Console.WriteLine("valor quatro: ");
+// int v4 = int.Parse(Console.ReadLine());
+// Console.WriteLine("valor cinco: ");
+// int v5 = int.Parse(Console.ReadLine());
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// if (v1 > 0) Console.WriteLine(v1);
+// if (v2 > 0) Console.WriteLine(v2);
+// if (v3 > 0) Console.WriteLine(v3);
+// if (v4 > 0) Console.WriteLine(v4);
+// if (v5 > 0) Console.WriteLine(v5);
 
 
 
@@ -263,9 +250,239 @@ Console.WriteLine("Coloque 5 valores");
 //  }
 
 
-///////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////
+
+
+// Console.WriteLine("Escolha um numero para coreesponder a um dia da semana");
+// int semana = int.Parse(Console.ReadLine());
+
+// int opcao = 0;
+// switch (semana)
+// {
+//     case 1 : 
+//     opcao = 1;
+//     Console.WriteLine("O dia da semana é segunda feira");
+//     break;
+
+//     case 2 :
+//     opcao = 2;
+//     Console.WriteLine("O dia da semana é terça feira");
+//     break;
+
+//     case 3 :
+//     opcao = 3;
+//     Console.WriteLine("O dia da semana é quarta feira");
+//     break;
+
+//     case 4 :
+//     opcao = 4;
+//     Console.WriteLine("O dia da semana é quinta feira");
+//     break;
+
+//     case 5 :
+//     opcao = 5;
+//     Console.WriteLine("O dia da semana é sexta feira");
+//     break;
+
+//     case 6 :
+//     opcao = 6;
+//     Console.WriteLine("O dia da semana é sabado");
+//     break;
+
+//     case 7 :
+//     opcao = 7;
+//     Console.WriteLine("O dia da semana é domingo");
+//     break;
+
+//     default : 
+//     Console.WriteLine("Opção invalida");
+//     break;
+
+// }
+
+
+/////////////////////////////////////////////////////////////
+
+// Console.WriteLine("Escolha um numero até 3 para escolher o setor de produdos");
+// int numero = int.Parse(Console.ReadLine());
+
+// int opcao = 0;
+// switch (numero)
+// {
+//     case 1 :
+//     Console.WriteLine("O setor é alimento");
+//     break;
+
+//     case 2 :
+//     Console.WriteLine("O setor é bebida");
+//     break;
+
+//     case 3 :
+//     Console.WriteLine("O setor é limpeza");
+//     break;
+// }
 
 
 
+///////////////////////////5////////////////////////////////
+
+// double soma = 0;
+// double maior = 0;
+
+// for (int i = 1; i <= 10; i++)
+// {
+//     Console.Write($"Digite o {i}º número: ");
+//     double numero = double.Parse(Console.ReadLine());
+
+//     soma = soma + numero;
+
+//     if(i == 1 || numero > maior)
+//     {
+//         maior = numero;
+//     }
+//     double media = soma / 10;
+
+//     Console.WriteLine("A soma é :" + soma);
+//     Console.WriteLine("A media é :" + media);
+//     Console.WriteLine("O maior numero é :" + maior);
+
+// }
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+
+// Console.WriteLine("Entre com as idades");
+// int idades = int.Parse(Console.ReadLine());
+
+// int soma = 0;
+// int contador = 0;
+
+// while(idades >= 0)
+// {
+//     soma = soma + idades;
+//     contador++;
+
+//     idades = int.Parse(Console.ReadLine());
+    
+// }
+// int media = soma / contador;
+// if(contador > 0)
+// {
+//     Console.WriteLine("A media é : " + media);
+// }
+
+
+/////////////////////////////////////////////////
+
+// int contador1 = 0;
+// int contador2 = 0;
+
+// for(int i = 0; i < 10; i++)
+// {
+
+//     Console.WriteLine("Entre com 10 numeros");
+//     int N = int.Parse(Console.ReadLine());
+    
+
+//     if( N %2 == 0)
+//     {
+//         contador1++;
+//     }
+//     else
+//     {
+//         contador2++;
+//     }
+//     Console.WriteLine("Numeros pares:" + contador1);
+//     Console.WriteLine("NUmeros impares:" + contador2);
+
+// }
+
+
+
+/////////////////////// DESAFIO ////////////////////
+
+
+////////////////////
+// Console.WriteLine("Entre com um numero");
+// int primo = int.Parse(Console.ReadLine());
+
+// if (primo %==1 || primo %primo == primo )
+///////////////////////////////////////
+
+
+
+
+
+
+// Console.WriteLine("Entre com um valor");
+// int valor = int.Parse(Console.ReadLine());
+// int soma = 0;
+// int contador = 1;
+
+// for (int i = valor;i >= 1; i--)
+// {
+//     contador *= i;
+   
+// }
+
+//  Console.WriteLine("O valor é:" + contador);
+
+
+
+///////////////////////////////////////////
+
+// Console.WriteLine("Ente com a senha");
+// int senha = int.Parse(Console.ReadLine());
+
+// int contador = 0;
+
+// if(senha == 1234)
+// {
+//     Console.WriteLine("Logado");
+// }
+// else
+// {
+//     while(senha != 1234)
+//     {
+//         contador++;
+//         Console.WriteLine("NEgado,tente novamente");
+//         senha = int.Parse(Console.ReadLine());
+    
+//     if(contador == 3)
+//     {
+//         break;
+//     }
+// }
+// if(contador == 3)
+// {
+//     Console.WriteLine("Acesso negado");
+// }
+//     else
+//     {
+//         Console.WriteLine("Acesso liberado");
+//     }
+// }
+
+// Console.WriteLine("Entre com o saldo");
+// double saldo = double.Parse(Console.ReadLine());
+
+// Console.WriteLine("Quanto deseja sacar?");
+// double saque = double.Parse(Console.ReadLine());
+
+// if (saldo > saque)
+// {
+//     Console.WriteLine("Saque aprovado");
+// }
+// else
+// {
+//     Console.WriteLine("Saque negado,você nao tem saldo suficiente");
+// }
+
+
+//////////////////////////////////////////
 
 

@@ -12,3 +12,4 @@ C:\Users\439580624\att aula 02.09\obj\Debug\net8.0\refint\att aula 02.09.dll
 C:\Users\439580624\att aula 02.09\obj\Debug\net8.0\att aula 02.09.pdb
 C:\Users\439580624\att aula 02.09\obj\Debug\net8.0\att aula 02.09.genruntimeconfig.cache
 C:\Users\439580624\att aula 02.09\obj\Debug\net8.0\ref\att aula 02.09.dll
+C:\Users\439580624\att aula 02.09\obj\Debug\net8.0\att aula 02.09.sourcelink.json
